@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+nav img {
+     margin-left: 5%;
+}
+ nav .fa-phone {
+    float: right;
+    margin-right: 20%;
+    color: red;
+}
+.hire {
+    padding: 15%;
+    background-image: url(studentpady_files/plumber1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about{
+    display: flex;
+}
+iframe {
+    height: 320px;
+    width: 520px;
+    padding: 6em;
+}
+.what-we-do{
+    margin-top: 30px;
+}
+button {
+    border-radius: 205px;
+    padding: 12px;
+    margin: 13px;
+    background: #df5522;
+    color: #fff;
+    font-size: 18px;
+}
+.circle_container {
+    display: flex;
+    justify-content: space-around;
+    background: #df5522;
+    padding: 5%;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.text {
+    padding-left: 25px;
+    border-left: 5px solid #fff;
+}
+.plus {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.extra {
+    color: white;
+    font-weight: bold;
+}
+.container1{
+    text-align: center;
+    padding-top: 4em;
+    margin-bottom: 2em;
+}
+.container1 h1 {
+    font-size: 42px;
+    color: #171f3c;
+    line-height: 45px;
+}
+.container1 p {
+    color: #555;
+    font-size: 16px;
+    line-height: 28px;
+}
+.how-it-works {
+    display: flex;
+    margin: 30px;
+}
+.service {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 15px;
+}
+h4 {
+    color: #171f3c;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.conected {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+.get-done {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+.testimony {
+    background:  #df5522;
+    padding: 80px;
+    margin-bottom: 4em;
+}
+.testimony h3 {
+    color: white;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: -42px;
+}
+.success {
+   text-align: center;
+}
+.intro {
+    font-size: 25px;
+}
+.row1 {
+    display: flex;
+    margin: 0 15% 4% 15%;
+}
+.row2 {
+    display: flex;
+    margin: 0 15% 5% 15%;
+}
+.email {
+    background: #df5522;
+    display: flex;
+    padding: 30px;
+}
+.unlock {
+   margin-left: 40px;
+}
+.unlock h4{
+    color: #fff;
+}
+.form {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#user-email {
+    background: #000;
+    border: solid #1B162C;
+    color: #59546A;
+}
+#user-email, #submit {
+    border-radius: 45px;
+    padding: 5px 22px 5px 22px;
+}
+input[type="submit"] {
+    background-color: #fff;
+    border: solid #fff;
+    color: #df5522;
+    margin-left: -70px;
+}
+footer {
+    padding: 66px;
+    background-color: #171f3c;
+    color: white;
+}
+.footer-top {
+   display: flex;  
+   justify-content:space-around;
+   
+}
+.list-contact, .list {
+    list-style: none;
+    color:  #555;
+}
+.list a, .list-contact{
+    color: #adafc7;
+    text-decoration: none;
+}
+h5 {
+    text-align: center;
+}
+.social p{
+    color: #555;
+    font-size: 20px;
+}
+.social-list {
+    list-style: none;
+}
+.social-list li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
